@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-FILE_PATH = 'mattix_client_red.py'   # Dateiname im Repo
+FILE_PATH = 'Matrix_client_red.py'   # Dateiname im Repo
 FILE_NAME = os.path.basename(FILE_PATH)
 
 @app.route('/')
