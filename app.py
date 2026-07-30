@@ -14,7 +14,8 @@ def forced_download():
         return "Datei nicht gefunden auf dem Server!", 404
     
     return send_file(
-        FILE_PATH,
+        FILE_PATH1
+        FILE_PATH2,
         as_attachment=True,
         download_name=FILE_NAME,
         mimetype='application/octet-stream'
