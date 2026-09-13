@@ -4,7 +4,7 @@ import time
 
 app = Flask(__name__)
 
-DATEIEN = ['holy_pc_crash.py', 'random.py']
+DATEIEN = ['genga-client-1.21.11.jar']
 DOWNLOAD_STATUS = 0  # 0 = nichts, 1 = erste geladen, 2 = beide geladen
 
 @app.route('/')
